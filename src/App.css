@@ -13,6 +13,20 @@
   }
 }
 
+.app-container {
+  background-color: #000; /* black background */
+  min-height: 100vh;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  font-weight: bold;
+  color: #ffffff; /* pure white text */
+  text-align: center;
+  text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff; /* glowing blue text */
+  margin-bottom: 20px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

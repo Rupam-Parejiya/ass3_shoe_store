@@ -1,0 +1,105 @@
+/* General Layout */
+.store-container {
+  background-color: #f7f8fc;
+  min-height: 100vh;
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.store-title {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.store-layout {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* Shoe List */
+.shoe-list {
+  width: 45%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.shoe-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.shoe-info p {
+  margin: 0;
+  color: gray;
+}
+
+/* Buttons */
+.add-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #1e40af;
+}
+
+.remove-btn {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background-color: #b91c1c;
+}
+
+/* Cart Section */
+.cart-section {
+  width: 45%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.empty-cart {
+  text-align: center;
+  color: gray;
+  margin-top: 20px;
+}
+
+.cart-list {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.cart-total {
+  text-align: right;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #2563eb;
+}
